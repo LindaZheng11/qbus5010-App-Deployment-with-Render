@@ -8,6 +8,7 @@ import numpy as np
 
 app = Dash(__name__)
 
+server = app.server
 # =========================== THEME==========================
 THEME = {
     "bg_page": "#F8F3E9",      
